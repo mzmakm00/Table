@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Data Table</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+<div class="Data">DATA TABLE</div>
+<div class="main">
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Select option</th>
+        <th class="fixed-column">ID</th>
+        <th>Product Name</th>
+        <th>Product Title</th>
+        <th style="text-align: center;">Product Description</th>
+        <th>Product Vendor</th>
+        <th>In Stock</th>
+        <th>Buying Price</th>
+        <th>Sale Price</th>
+        <th>Purchase Quantity</th>
+        <th>Product Type</th>
+        <th>Shipping Rates</th>
+        <th>Refill Limit</th>
+        <th>Product Location Address</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td><input type="checkbox"></td>
+        <td class="fixed-column">1</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td >Lorem</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td class="fixed-column">2</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum velit fugiat unde! Nostrum, magnam earum pariatur quia ex, quidem, numquam ab voluptatem placeat molestiae ipsam tempore laborum voluptatibus veniam animi!</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td class="fixed-column">3</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td >4</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td >5</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td >6</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>7</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr> 
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>8</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>9</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>9</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>9</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td>
+          <button class="addvendor"><i class="fa-solid fa-user-plus"></i><span class="tooltip">Add a vendor</span></button>
+          <button class="addproduct"><i class="fa-solid fa-cart-shopping"></i><span class="tooltip">Add a product</span></button>
+          <button class="editproduct"><i class="fa-solid fa-pen-to-square"></i><span class="tooltip">Edit product</span></button>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+</div>
+</body>
+</html>

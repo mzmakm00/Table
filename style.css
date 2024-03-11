@@ -1,0 +1,144 @@
+*{
+  margin: 0 auto;
+}
+.main{
+  margin-top: 1rem;
+
+}
+.Data{
+  text-align: center;
+  font-size: 2.5em;
+  font-family: serif, sans-serif;
+  margin-top: 2rem;
+}
+
+.table-container {
+    overflow: auto;
+    justify-content: center;
+    border-right:1px solid#ddd;
+    width: 100%;
+    max-width: 90%;
+    height: 80vh;
+  }
+
+.addvendor, .addproduct, .editproduct {
+    margin: 0 10pxem; 
+    padding: 0; 
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+/* Apply overflow: hidden; to hide scrollbar by default */
+tr td:nth-child(5) {
+  max-width: 200px; 
+  max-height: 100px; 
+  overflow: hidden;
+}
+
+
+tr td:nth-child(5):hover {
+  overflow: visible;
+  text-wrap: wrap ;
+}
+
+  
+.addvendor {
+    color: #2ECC71; 
+}
+  
+.addproduct {
+    color: #3498DB; 
+}
+.editproduct{
+    color: rgb(153, 27, 111);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+table th:nth-last-child(1){
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+    border: none; 
+}
+
+  
+th {
+    background-color:#66A5AD ;
+}
+  
+tr:nth-child(even){
+    background-color:#ddd ;
+  }  
+
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+}
+button i {
+  font-size: 24px;
+}
+
+tr:nth-child(1){
+  .tooltip {
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px; 
+    font-size: 1rem;
+    border-radius: 5px;
+    height: fit-content;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    transition: visibility 0.01s ease;
+    overflow: hidden; 
+  }
+  
+button:hover .tooltip {
+  visibility: visible;
+}
+ 
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  bottom: 125%;
+  transform: translateX(-100%);
+  transition: visibility 0.01s ease;
+}
+
+button:hover .tooltip {
+  visibility: visible;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: white;
+}
+
+tbody tr:hover{
+  background-color:#99bcc0;
+}
