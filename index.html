@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Data Table</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+</head>
+
+<body>
+<div class="Data">DATA TABLE</div>
+<div class="main">
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th class="fixed-column" style="background-color: #66A5AD;">Select option</th>
+        <th >ID</th>
+        <th>Product Name</th>
+        <th>Product Title</th>
+        <th style="text-align: center">Product Description</th>
+        <th>Product Vendor</th>
+        <th>In Stock</th>
+        <th>Buying Price</th>
+        <th>Sale Price</th>
+        <th>Purchase Quantity</th>
+        <th>Product Type</th>
+        <th>Shipping Rates</th>
+        <th>Refill Limit</th>
+        <th>Product Location Address</th>
+        <th class="fixedaction" style="background-color: #66A5AD">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >1</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td >Lorem</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown ">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >2</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td class="d1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum velit fugiat unde! Nostrum, magnam earum pariatur quia ex, quidem, numquam ab voluptatem placeat molestiae ipsam tempore laborum voluptatibus veniam animi!</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td>3</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td class="Description" title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cumque perferendis beatae pariatur asperiores ex a quis eos accusamus animi, consequatur ea fugiat quos at inventore ipsam ratione, accusantium aspernatur.">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cumque perferendis beatae pariatur asperiores ex a quis eos accusamus animi, consequatur ea fugiat quos at inventore ipsam ratione, accusantium aspernatur.</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >4</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >5</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >6</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >7</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >8</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td >9</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td>10</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr> 
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td>11</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td>11</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td>12</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction" >
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td class="fixed-column"><input type="checkbox"></td>
+        <td>13</td>
+        <td>T-shirt</td>
+        <td>T1</td>
+        <td>Summer shirts</td>
+        <td>Vendor 1</td>
+        <td>10</td>
+        <td>$10.00</td>
+        <td>$15.00</td>
+        <td>100</td>
+        <td>Type 1</td>
+        <td>$5.00</td>
+        <td>50</td>
+        <td>123 Main St</td>
+        <td class="fixedaction">
+          <div class="dropdown">
+          <button class="dropbtn">&#8286;</button>
+          <div class="dropdown-content">
+            <a href="#"><button class="addvendor"><i class="fa-solid fa-user-plus vendor"></i><span style="margin-left: 0.5rem;">Add a vendor<span></button></a>
+            <a href="#"><button class="addproduct"><i class="fa-solid fa-cart-shopping product"></i><span style="margin-left: 0.5rem;">Add a product</span></button></a>
+            <a href="#"><button class="editproduct"><i class="fa-solid fa-pen-to-square editproduct"></i><span style="margin-left: 0.5rem;">Edit product</span></button></a>
+          </div>
+        </div>
+      </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+</div>
+</body>
+</html>

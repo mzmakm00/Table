@@ -1,0 +1,165 @@
+*{
+  margin: 0 auto;
+}
+.main{
+  margin-top: 1rem;
+
+}
+.Data{
+  text-align: center;
+  font-size: 2.5em;
+  font-family: serif, sans-serif;
+  margin-top: 2rem;
+}
+
+.table-container {
+    overflow: auto;
+    justify-content: center;
+    border-right:1px solid#ddd;
+    width: 100%;
+    max-width: 90%;
+    height: 80vh;
+  }
+
+.editproduct{
+    margin-right: 0.2em; 
+ }
+
+
+/* tr td:nth-child(5) {
+  max-width: 200px; 
+  max-height: 100px; 
+  overflow: hidden;
+}
+
+tr td:nth-child(5):hover {
+  overflow: visible;
+  text-wrap: wrap ;
+} */
+.d1{
+  max-width: 200px; 
+  max-height: 100px; 
+  overflow: hidden;
+}
+.d1:hover{
+  overflow: visible;
+  text-wrap: wrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+table th:nth-last-child(1){
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+    border: none; 
+}
+
+  
+thead tr {
+    background-color:#66A5AD ;
+}
+
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+}
+button i {
+  font-size: 15px;
+}
+
+table thead{
+  position: sticky;
+  top: 0;
+  z-index: 150;
+  color: white;
+}
+
+tbody tr:hover{
+  background-color:#b0d4d8;
+}
+
+tr:hover td.fixed-column , tr:hover td.fixedaction{
+  background-color:#b0d4d8;
+  z-index: 23;
+}
+.fixed-column {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: #e1f1f1;
+}
+
+.fixedaction {
+  position: sticky;
+  right: 0;
+  background-color: #e1f1f1;
+}
+
+
+.dropbtn {
+  padding: 0.5rem;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 1em;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 200 !important;
+  
+}
+
+.dropdown-content a {
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #b3ceb4;}
+
+.Description{
+  max-width: 300px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;   
+ }
+
+/* tbody tr:nth-last-child(-n+2) .dropdown-content {
+  top: -5.1rem;
+  right: 0; 
+} */
+
+/* Target the dropdown content in the last three rows of the last column */
+tbody tr:nth-last-child(-n+2) .fixedaction .dropdown-content {
+  top: auto; /* Reset the top positioning */
+  bottom: calc(100% + 2px); /* Position the dropdown content above the dropdown button */
+  right: 0; /* Align the dropdown content with the right edge of the dropdown button */
+}
+
+
